@@ -1,0 +1,40 @@
+div,h1{
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+
+
+div,i,b{
+    text-align:right;
+    text-rendering: auto;
+}
+h1{
+     text-transform: uppercase;
+}
+
+body{
+    background-color:wheat;
+}
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4{
+    font-size:large;
+}
+
+p{
+    font-family:sans-serif;
+}
+
+hr{
+    border-style:double;
+}
+
+ul{
+
+}
+ul,li,a{;
+    font-style:oblique;
+}
