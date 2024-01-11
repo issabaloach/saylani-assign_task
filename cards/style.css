@@ -1,13 +1,12 @@
 body{
 
-  background-color: cadetblue;
-}
-.parent{
-  width: 400px;
- 
- display: inline-flex;
+  background: linear-gradient(green, rgb(90, 90, 160));
 }
 
+.parent{
+  width: 400px;
+ display: inline-flex;
+}
 
 #rcorners1 {
   border-radius: 30px;
@@ -38,12 +37,13 @@ body{
 min-height: 400px; 
 max-height: 900px;
 width: 200px;
-  border: 1px solid black;
+border: 1px solid black;
 text-align: center; 
 margin: 50px;
 padding-bottom: 50px ;
 padding: 50px;
 }
+
 .box1:hover{
    background-color: brown;
 }
