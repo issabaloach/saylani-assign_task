@@ -12,8 +12,9 @@
      text-transform: capitalize;
      flex-direction: row;
      background-color:azure;
-
+     font-size: medium;
 }
+
 body{
    margin: 0px;
    padding: 0px;
@@ -37,6 +38,13 @@ span:hover{
     flex-direction: row;
   }
 
+  .child,p{
+    font-size: medium;
+    text-transform: capitalize;
+  }
+  .child,i{
+    font-size:30px;
+  }
   .child{
     height: 99px;
     width: 99px;
