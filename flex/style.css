@@ -1,0 +1,59 @@
+.nav-icon{
+    display: flex;
+    height: 40px;
+    padding: 0px 12px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1px;
+     justify-content:space-evenly;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-align: justify;
+     cursor: pointer;
+     text-transform: capitalize;
+     flex-direction: row;
+     background-color:azure;
+
+}
+body{
+   margin: 0px;
+   padding: 0px;
+}
+
+span:hover{
+      text-decoration: underline;
+      color: rgb(71, 71, 175);
+}
+
+.parent {
+
+    min-height: 300px;
+  max-width: 750px;
+    margin: 12px auto;
+     padding: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .child{
+    height: 99px;
+    width: 99px;
+    border: 1px rgb(207, 46, 46);
+    background-color: rgb(243, 243, 234);
+    display: inline-block;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 10px;
+    border-radius: 10px 10px;
+    border-spacing: 10px;
+    text-align:center;
+    padding: 0px auto;
+    font-size: 22px;
+  }
+
+  .child:hover{
+    background-color: rgb(236, 236, 22);
+    
+  }
