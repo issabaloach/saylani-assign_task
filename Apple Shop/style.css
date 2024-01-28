@@ -1,0 +1,599 @@
+.body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar{
+    background-color: rgb(70, 68, 68, 0.9);
+    margin: 0;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed; 
+    cursor: pointer;
+    top: 0;
+    z-index: 1;
+}
+
+   
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+     font-family: "Poppins-Lighter.ttf", sans-serif;  
+     max-width: 1200px;
+     margin: 0 auto;
+    font-size: smaller;
+    gap: 40px;
+    color: rgb(223, 214, 214);
+}
+
+.container > i {
+    font-size: 15px;
+    color: gray;
+}
+
+.container > i:hover {
+    transition: all 0.2s;
+    transform: scale(o.5);
+    color: whitesmoke;
+}
+
+
+.appleicon i {
+    font-size: 20px; 
+    color: gray;
+  }
+  .appleicon i:hover{
+    transition: all 0.2s;
+    transform: scale(o.5);
+    color: whitesmoke;
+  }
+
+.parent{
+    margin: 0 auto;
+    width: 100%;
+}
+.Vision img{
+    margin: 0 auto;
+    width: 100%;
+    height: 660px;
+}
+.Vision{
+    position: relative;
+    width: 100%;
+}
+
+.text-overlay {
+    position: absolute;
+     bottom: 2px;
+    left: 34%;
+    color: black; 
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+.vision_text {
+    font-family: "Poppins-ExtraBold" sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+.p{
+    font-size: 25px;
+
+}
+.btn{
+    border: none !important;
+    color: blue;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.master{
+    position: relative;
+    width: 100%;
+}
+
+.master img{
+    margin: 0px;
+    width: 100%;
+    height: 617px;
+}
+
+.text-overlay1 {
+
+     /* bottom: 25%;
+    left: 25%; */
+    color: white; 
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+.tv{
+    position: absolute;
+    bottom: 87%;
+    left: 48%;
+    font-size: 60px;
+    font-weight: 300;    
+}
+.master h2{
+    position: absolute;
+    bottom: 30%;
+    left: 28%;
+    letter-spacing: -4px;
+    font-size: 65px ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.master  .button1{
+    border-color: rgb(212, 212, 212, 0.5);
+    position: absolute;
+    bottom: 30%;
+    left: 44%;
+    border: none;
+    font-size: 17px;
+    font-family: sans-serif;
+    cursor: pointer;
+
+
+}
+.master  .button1:hover{
+    border: none;
+    text-decoration: underline;
+}
+
+.iphone{
+    position: relative;
+    width: 100%;
+}
+.iphone img{
+    
+    width: 100%;
+    height: 660px;
+}
+
+.text-overlay2 {
+
+   color: white; 
+   font-size: 15px;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   gap: 0px;
+
+}
+.ip{
+    position: absolute;
+    bottom: 80%;
+    left: 35%;
+    letter-spacing: -4px;
+    font-size: 40px ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.desc{
+    position: absolute;
+    bottom: 78%;
+    left: 33%;
+    letter-spacing:0;
+    font-size: 25px ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif   
+}
+
+ .btn2{
+    position: absolute;
+    bottom: 75%;
+    left: 42%;
+    font-size: 12px;
+    letter-spacing:5;
+    font-size: 20px ;
+     border: none !important;
+}
+
+.iphone15cam{
+    position: relative;
+    width: 100%;
+}
+.iphone15cam img{
+    
+    width: 100%;
+    height: 660px;
+}
+
+.text-overlay3{
+
+    color: black; 
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+ 
+ }
+ .ip15{
+     position: absolute;
+     bottom: 80%;
+     left: 39%;
+     letter-spacing: -4px;
+     font-size: 40px ;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ }
+ 
+ .desc1{
+     position: absolute;
+     bottom: 78%;
+     left: 32%;
+     letter-spacing:0;
+     font-size: 25px ;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif   
+ }
+ 
+  .btn3{
+     position: absolute;
+     bottom: 76%;
+     left: 44%;
+     font-size: 12px;
+     letter-spacing:5;
+     font-size: 20px ;
+      border: 0px transparent;
+    
+ }
+
+ .grid_iphones{
+    max-width: 1200px;
+    position: relative;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid_iphones > div > img {
+    height: 525px;
+    width: 620px;
+  }
+  .text-overlay4{
+
+    color: white; 
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+ 
+ }
+ .privacy{
+     position: absolute;
+     bottom: 72%;
+     left: 22%;
+     letter-spacing:0;
+     font-size: 22px ;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ }
+ 
+ .desc2{
+     position: absolute;
+     bottom: 70%;
+     left: 16%;
+     letter-spacing:0;
+     font-size: 18px ;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif   
+ }
+ 
+  .btn4{
+     position: absolute;
+     bottom: 69%;
+     left: 23%;
+     font-size: 10px;
+     letter-spacing:5;
+      border: 0px transparent;
+    
+ }
+ .text-overlay5{
+
+    color: black; 
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+ 
+ }
+ .Val{
+     position: absolute;
+     bottom: 70%;
+     left: 69%;
+     letter-spacing:0;
+     font-size: 22px ;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ }
+ 
+ .desc3{
+     position: absolute;
+     bottom: 69%;
+     left: 71.5%;
+     letter-spacing:0;
+     font-size: 18px ;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif   
+ }
+ 
+  .btn5{
+     position: absolute;
+     bottom: 68%;
+     left: 76.9%;
+     font-size: 10px;
+     letter-spacing:5;
+      border: 0px ;
+    
+ }
+
+ .text-overlay6{
+
+    color: white; 
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+ 
+ }
+ .w9{
+     position: absolute;
+     bottom: 64%;
+     left: 21%;
+     letter-spacing:0;
+     font-size: 22px ;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ }
+ 
+ .desc4{
+     position: absolute;
+     bottom: 62%;
+     left: 23.5%;
+     color: red;
+     letter-spacing:0;
+     font-size: 15px ;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif   
+ }
+ .desc4-1{
+    position: absolute;
+    bottom: 60.5%;
+    left: 17.5%;
+    letter-spacing:0;
+    font-size: 17px ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif   
+}
+ 
+  .btn6{
+     position: absolute;
+     bottom: 60%;
+     left: 21%;
+     font-size: 9px;
+     letter-spacing:0;
+      border: 0px ;
+ }
+
+ .text-overlay7{
+
+    color: black; 
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+ 
+ }
+ .ultra2{
+     position: absolute;
+     font-weight: bold;
+     bottom: 64%;
+     left: 73%;
+     letter-spacing:0;
+     font-size: 22px ;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ }
+ 
+ .desc5{
+     position: absolute;
+     bottom: 62%;
+     left: 76%;
+     color: orange;
+     letter-spacing:0;
+     font-size: 15px ;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif   
+ }
+ .desc5-1{
+    position: absolute;
+    bottom: 60.5%;
+    left: 72%;
+    color: gray;
+    letter-spacing:0;
+    font-size: 17px ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif   
+}
+ 
+  .btn7{
+     position: absolute;
+     bottom: 60%;
+     left: 73%;
+     font-size: 9px;
+     letter-spacing:0;
+      border: 0px ;
+ }
+
+
+ .about{
+    text-align: justify;
+    font-size: 13px;
+    text-align: center;
+    background-color: rgb(243, 240, 240);
+    color: rgb(143, 138, 138);
+ }
+
+.lists{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    background-color: rgb(240, 236, 236);
+    color: rgb(143, 138, 138);
+    overflow: hidden;
+    font-family: sans-serif;
+    
+}
+ul li{
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.ul2{
+    font-weight: bolder;
+}
+
+ul:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.p9:hover{
+    text-decoration: underline;
+}
+
+
+/* For max width 900px */
+@media screen and (max-width: 900px) {
+    /* Adjustments for responsiveness */
+    .container {
+        max-width: 90%;
+        gap: 20px;
+    }
+    .grid_iphones > div > img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* For max width 600px */
+@media screen and (max-width: 600px) {
+    /* Adjustments for responsiveness */
+    .container {
+        flex-direction:row;
+    }
+    .navbar {
+        height: auto;
+    }
+    .Vision img,
+    .iphone img,
+    .iphone15cam img {
+        height: auto;
+        max-width: 100%;
+    }
+    .text-overlay,
+    .text-overlay1,
+    .text-overlay2,
+    .text-overlay3,
+    .text-overlay4,
+    .text-overlay5,
+    .text-overlay6,
+    .text-overlay7,
+    .ultra2,
+    .w9 {
+        font-size: 12px;
+    }
+    .master h2,
+    .tv,
+    .ip,
+    .desc,
+    .desc1,
+    .desc2,
+    .desc3,
+    .desc4,
+    .desc4-1,
+    .desc5,
+    .desc5-1,
+    .privacy {
+        font-size: 18px;
+    }
+    .btn,
+    .btn2,
+    .btn3,
+    .btn4,
+    .btn5,
+    .btn6,
+    .btn7 {
+        font-size: 10px;
+    }
+}
+
+/* For max width 400px */
+@media screen and (max-width: 400px) {
+    /* Adjustments for responsiveness */
+    .Vision img,
+    .iphone img,
+    .iphone15cam img {
+        height: auto;
+        max-width: 100%;
+    }
+    .text-overlay,
+    .text-overlay1,
+    .text-overlay2,
+    .text-overlay3,
+    .text-overlay4,
+    .text-overlay5,
+    .text-overlay6,
+    .text-overlay7,
+    .ultra2,
+    .w9 {
+        font-size: 10px;
+    }
+    .master h2,
+    .tv,
+    .ip,
+    .desc,
+    .desc1,
+    .desc2,
+    .desc3,
+    .desc4,
+    .desc4-1,
+    .desc5,
+    .desc5-1,
+    .privacy {
+        font-size: 16px;
+    }
+    .btn,
+    .btn2,
+    .btn3,
+    .btn4,
+    .btn5,
+    .btn6,
+    .btn7 {
+        font-size: 8px;
+    }
+}
+
+/* For smartphones or tablets */
+@media screen and (max-width: 767px) {
+    /* Adjustments for responsiveness */
+    .navbar {
+        height: auto;
+    }
+    .container {
+        
+        flex-direction: row;
+        max-width: 90%;
+    }
+    .grid_iphones {
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid_iphones > div > img {
+        width: 100%;
+        height: auto;
+    }
+}
