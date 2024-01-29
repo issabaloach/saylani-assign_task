@@ -1,8 +1,13 @@
-.body{
-    padding: 0;
+* {
     margin: 0;
-    display: flex;
+    padding: 0;
+    box-sizing: border-box;
 }
+    body {
+        font-family: "Poppins-Lighter.ttf", sans-serif;
+        color: rgb(223, 214, 214);
+    }
+
 
 .navbar{
     background-color: rgb(70, 68, 68, 0.9);
@@ -71,7 +76,7 @@
 
 .text-overlay {
     position: absolute;
-     bottom: 2px;
+     bottom: 4px;
     left: 34%;
     color: black; 
     font-size: 15px;
@@ -128,7 +133,7 @@
 }
 .master h2{
     position: absolute;
-    bottom: 30%;
+    bottom: 34%;
     left: 28%;
     letter-spacing: -4px;
     font-size: 65px ;
@@ -139,7 +144,7 @@
     border-color: rgb(212, 212, 212, 0.5);
     position: absolute;
     bottom: 30%;
-    left: 44%;
+    left: 45%;
     border: none;
     font-size: 17px;
     font-family: sans-serif;
@@ -183,7 +188,7 @@
 
 .desc{
     position: absolute;
-    bottom: 78%;
+    bottom: 77%;
     left: 33%;
     letter-spacing:0;
     font-size: 25px ;
@@ -192,8 +197,8 @@
 
  .btn2{
     position: absolute;
-    bottom: 75%;
-    left: 42%;
+    bottom: 72%;
+    left: 44%;
     font-size: 12px;
     letter-spacing:5;
     font-size: 20px ;
@@ -222,7 +227,7 @@
  }
  .ip15{
      position: absolute;
-     bottom: 80%;
+     bottom: 82%;
      left: 39%;
      letter-spacing: -4px;
      font-size: 40px ;
@@ -240,7 +245,7 @@
  
   .btn3{
      position: absolute;
-     bottom: 76%;
+     bottom: 75%;
      left: 44%;
      font-size: 12px;
      letter-spacing:5;
@@ -272,7 +277,7 @@
  }
  .privacy{
      position: absolute;
-     bottom: 72%;
+     bottom: 73%;
      left: 22%;
      letter-spacing:0;
      font-size: 22px ;
@@ -281,7 +286,7 @@
  
  .desc2{
      position: absolute;
-     bottom: 70%;
+     bottom: 71%;
      left: 16%;
      letter-spacing:0;
      font-size: 18px ;
@@ -309,7 +314,7 @@
  }
  .Val{
      position: absolute;
-     bottom: 70%;
+     bottom: 71%;
      left: 69%;
      letter-spacing:0;
      font-size: 22px ;
@@ -318,7 +323,7 @@
  
  .desc3{
      position: absolute;
-     bottom: 69%;
+     bottom: 69.5%;
      left: 71.5%;
      letter-spacing:0;
      font-size: 18px ;
@@ -356,7 +361,7 @@
  
  .desc4{
      position: absolute;
-     bottom: 62%;
+     bottom: 62.8%;
      left: 23.5%;
      color: red;
      letter-spacing:0;
@@ -365,7 +370,7 @@
  }
  .desc4-1{
     position: absolute;
-    bottom: 60.5%;
+    bottom: 61.5%;
     left: 17.5%;
     letter-spacing:0;
     font-size: 17px ;
@@ -375,7 +380,7 @@
   .btn6{
      position: absolute;
      bottom: 60%;
-     left: 21%;
+     left: 21.5%;
      font-size: 9px;
      letter-spacing:0;
       border: 0px ;
@@ -403,7 +408,7 @@
  
  .desc5{
      position: absolute;
-     bottom: 62%;
+     bottom: 63%;
      left: 76%;
      color: orange;
      letter-spacing:0;
@@ -412,7 +417,7 @@
  }
  .desc5-1{
     position: absolute;
-    bottom: 60.5%;
+    bottom: 62%;
     left: 72%;
     color: gray;
     letter-spacing:0;
@@ -422,8 +427,8 @@
  
   .btn7{
      position: absolute;
-     bottom: 60%;
-     left: 73%;
+     bottom: 61%;
+     left: 73.5%;
      font-size: 9px;
      letter-spacing:0;
       border: 0px ;
@@ -467,6 +472,7 @@ ul:hover{
 }
 
 
+
 /* For max width 900px */
 @media screen and (max-width: 900px) {
     /* Adjustments for responsiveness */
@@ -475,8 +481,13 @@ ul:hover{
         gap: 20px;
     }
     .grid_iphones > div > img {
-        width: 100%;
+        width: auto;
         height: auto;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
 }
 
@@ -506,6 +517,7 @@ ul:hover{
     .ultra2,
     .w9 {
         font-size: 12px;
+        width: auto;
     }
     .master h2,
     .tv,
@@ -530,6 +542,11 @@ ul:hover{
     .btn7 {
         font-size: 10px;
     }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 }
 
 /* For max width 400px */
@@ -552,6 +569,7 @@ ul:hover{
     .ultra2,
     .w9 {
         font-size: 10px;
+        width: auto;
     }
     .master h2,
     .tv,
@@ -576,6 +594,11 @@ ul:hover{
     .btn7 {
         font-size: 8px;
     }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 }
 
 /* For smartphones or tablets */
@@ -595,5 +618,44 @@ ul:hover{
     .grid_iphones > div > img {
         width: 100%;
         height: auto;
+    }
+
+    @media screen and (max-width: 768px) {
+        .text-overlay {
+            bottom: 10px;
+        }
+    
+        .vision_text {
+            font-size: 30px;
+        }
+    
+        .p {
+            font-size: 18px;
+        }
+    
+        .tv {
+            font-size: 30px;
+        }
+    
+        .master h2 {
+            font-size: 30px;
+        }
+    
+        .ip {
+            font-size: 20px;
+        }
+    
+        .desc {
+            font-size: 15px;
+        }
+    
+        .btn2 {
+            font-size: 12px;
+        }
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
 }
