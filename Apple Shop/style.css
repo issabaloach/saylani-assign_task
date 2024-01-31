@@ -22,7 +22,9 @@
     top: 0;
     z-index: 1;
 }
-
+.container > span :hover{
+    text-decoration: underline;
+}
    
 
 .container{
@@ -140,12 +142,11 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-.master  .button1{
+ .btn1{
     border-color: rgb(212, 212, 212, 0.5);
     position: absolute;
     bottom: 30%;
     left: 45%;
-    border: none;
     font-size: 17px;
     font-family: sans-serif;
     cursor: pointer;
@@ -179,8 +180,8 @@
 }
 .ip{
     position: absolute;
-    bottom: 80%;
-    left: 35%;
+    bottom: 84%;
+    left: 44%;
     letter-spacing: -4px;
     font-size: 40px ;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
@@ -197,8 +198,8 @@
 
  .btn2{
     position: absolute;
-    bottom: 72%;
-    left: 44%;
+    bottom: 74%;
+    left: 43.5%;
     font-size: 12px;
     letter-spacing:5;
     font-size: 20px ;
@@ -227,8 +228,8 @@
  }
  .ip15{
      position: absolute;
-     bottom: 82%;
-     left: 39%;
+     bottom: 84%;
+     left: 44.5%;
      letter-spacing: -4px;
      font-size: 40px ;
      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
@@ -295,8 +296,8 @@
  
   .btn4{
      position: absolute;
-     bottom: 69%;
-     left: 23%;
+     bottom: 70%;
+     left: 22%;
      font-size: 10px;
      letter-spacing:5;
       border: 0px transparent;
@@ -315,7 +316,7 @@
  .Val{
      position: absolute;
      bottom: 71%;
-     left: 69%;
+     left: 70%;
      letter-spacing:0;
      font-size: 22px ;
      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
@@ -324,7 +325,7 @@
  .desc3{
      position: absolute;
      bottom: 69.5%;
-     left: 71.5%;
+     left: 72%;
      letter-spacing:0;
      font-size: 18px ;
      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif   
@@ -332,7 +333,7 @@
  
   .btn5{
      position: absolute;
-     bottom: 68%;
+     bottom: 69%;
      left: 76.9%;
      font-size: 10px;
      letter-spacing:5;
@@ -361,7 +362,7 @@
  
  .desc4{
      position: absolute;
-     bottom: 62.8%;
+     bottom: 62%;
      left: 23.5%;
      color: red;
      letter-spacing:0;
@@ -370,7 +371,7 @@
  }
  .desc4-1{
     position: absolute;
-    bottom: 61.5%;
+    bottom: 60.5%;
     left: 17.5%;
     letter-spacing:0;
     font-size: 17px ;
@@ -380,7 +381,7 @@
   .btn6{
      position: absolute;
      bottom: 60%;
-     left: 21.5%;
+     left: 20%;
      font-size: 9px;
      letter-spacing:0;
       border: 0px ;
@@ -408,7 +409,7 @@
  
  .desc5{
      position: absolute;
-     bottom: 63%;
+     bottom: 62.2%;
      left: 76%;
      color: orange;
      letter-spacing:0;
@@ -417,7 +418,7 @@
  }
  .desc5-1{
     position: absolute;
-    bottom: 62%;
+    bottom: 61.4%;
     left: 72%;
     color: gray;
     letter-spacing:0;
@@ -428,7 +429,7 @@
   .btn7{
      position: absolute;
      bottom: 61%;
-     left: 73.5%;
+     left: 72%;
      font-size: 9px;
      letter-spacing:0;
       border: 0px ;
@@ -659,3 +660,27 @@ ul:hover{
         box-sizing: border-box;
     }
 }
+@media (max-width: 834px)
+{
+    .navbar{
+        display: flex;
+        align-items: center;
+    }
+    #icon{
+        display: flex;
+    }
+    .navbar > .container > span{
+        display: none;
+        
+    }
+    .navbar > .container > .icons{
+        position: absolute;
+        right: 20px;
+    }
+    .appleicon{
+        position: absolute;
+        left: 30px;
+
+    }
+
+} 
