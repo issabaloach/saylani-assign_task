@@ -53,6 +53,7 @@
   
   .video_container {
     height: 100%;
+    font-size: medium;
   }
   
   .video_cards {
